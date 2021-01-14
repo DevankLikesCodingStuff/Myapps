@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-color: lightblue;
+}
+.line{
+    height: 6px;
+    width: 100px;
+   background-color:black;
+    margin: auto;
+}
+img:hover{
+    transform: scale(0.9);
+}
+h1{
+color: blue;
+    font-size: 30px;
+    font-family: fantasy;
+}
