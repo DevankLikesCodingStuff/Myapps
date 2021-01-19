@@ -1,18 +1,28 @@
-body{
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+
+.container
+{
     text-align: center;
-    background-color: lightblue;
 }
-.line{
-    height: 6px;
-    width: 100px;
-   background-color:black;
-    margin: auto;
+#mycarousel {
+    background-color: red;
 }
-img:hover{
-    transform: scale(0.9);
+#mycarousel img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
 }
-h1{
-color: blue;
+.carousel-inner p{
     font-size: 30px;
-    font-family: fantasy;
+    margin-top: 30px;
+    color: white
 }
+#mycarousel1 {
+    background-color: red;
+}
+
+/*Start your code from here */

@@ -2,44 +2,94 @@
 <html lang="en">
 
 <head>
-    <title> My Colletion of apps and many more</title>
-    <link href="style.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <section id="Apps">
-        <h1>My Apps</h1>
-        <div class="line"></div>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/INsP2RNxGCoLD8fT4YIwwlAtm9WU-179bFZhCCDoFPs/embed"></iframe>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/ziCb7OcDk2uKKQSotxROIQpGDaYQp2MWG9P746F2zrg/embed"></iframe>
-    </section>
-    <section id="Games">
-        <h1> My Games </h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/playlab/Jlf1ksacew9ZBgO8j_PXtWsc-8hZiOrc--KC66dw6lw" target="_blank">
-            <img src="https://studio.code.org/v3/files/Jlf1ksacew9ZBgO8j_PXtWsc-8hZiOrc--KC66dw6lw/.metadata/thumbnail.png">
-        </a>
-        <a href="https://studio.code.org/projects/spritelab/pEDoG3h2ESrvh9HoU926TNG01GoSKH7F5vnyW-5uyoA" target="_blank">
-            <img src="https://studio.code.org/v3/files/pEDoG3h2ESrvh9HoU926TNG01GoSKH7F5vnyW-5uyoA/.metadata/thumbnail.png">
-        </a>
-    </section>
-    <section id="MyArt">
-        <h1> My Art </h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/artist/7O47vzDXx4P_HSSLFYmjSlCsrOygCB0wCbOt-HgOhb8" target="_blank">
-            <img src="https://studio.code.org/v3/files/7O47vzDXx4P_HSSLFYmjSlCsrOygCB0wCbOt-HgOhb8/.metadata/thumbnail.png">
-        </a>
-        <a href="https://studio.code.org/projects/artist/d4xXVNvKUVM-NkabogQt94x2WDbK7d0XJQXTuP-69Jk" target="_blank">
-            <img src="https://studio.code.org/v3/files/d4xXVNvKUVM-NkabogQt94x2WDbK7d0XJQXTuP-69Jk/.metadata/thumbnail.png">
-        </a>
-    </section>
-    <section id="MyChatbot">
-        <h1> My ChatApp</h1>
-        <div class="line"></div>
-        <iframe allow="microphone;" width="1820" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/7c2f6100-b51c-4c97-b5d2-42334d630b1d">
-        </iframe>
-    </section>
 
-</body>
+    <div class="container">
 
-</html>
+        <section id="app">
+            <h1>Apps</h1>
+            <div class="line"></div>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/AmAIOlod-80aGvVFcBdbfjebPGUlVaYjI8ECZcJtZks/embed"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U9AQsuLnTixFr5caYUBM9qmkuaPCvmuWblFMcUPrC14/embed"></iframe>
+        </section>
+        <h1> Games </h1>
+        <h2> These games where made in game lab and click on them to see the games </h2>
+        <div id="mycarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://studio.code.org/projects/playlab/Jlf1ksacew9ZBgO8j_PXtWsc-8hZiOrc--KC66dw6lw" target="_blank">
+                            <img src="https://studio.code.org/v3/files/Jlf1ksacew9ZBgO8j_PXtWsc-8hZiOrc--KC66dw6lw/.metadata/thumbnail.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p> Save The City </p>
+                </div>
+
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <a href="https://studio.code.org/projects/spritelab/pEDoG3h2ESrvh9HoU926TNG01GoSKH7F5vnyW-5uyoA" target="_blank">
+                        <img src="https://studio.code.org/v3/files/pEDoG3h2ESrvh9HoU926TNG01GoSKH7F5vnyW-5uyoA/.metadata/thumbnail.png" class="img-responsive">
+                    </a>
+
+                    <div class="carousel-content">
+                        <p> Control The Drone </p>
+                    </div>
+
+                </center>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#mycarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+        <a class="right carousel-control" href="#mycarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+    </div>
+    
+    <h1> My Art </h1>
+        <h2> These are my art work made in art lab and click on them to see the art work</h2>
+   
+    <div id="mycarousel1" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <center>
+                    <a href="https://studio.code.org/projects/artist/7O47vzDXx4P_HSSLFYmjSlCsrOygCB0wCbOt-HgOhb8" target="_blank">
+                        <img src="https://studio.code.org/v3/files/7O47vzDXx4P_HSSLFYmjSlCsrOygCB0wCbOt-HgOhb8/.metadata/thumbnail.png" class="img-responsive">
+                    </a>
+
+                    <div class="carousel-content">
+                        <p> Logo of the Square People </p>
+            </div>
+
+            </center>
+        </div>
+        <div class="item">
+            <center>
+                <a href="https://studio.code.org/projects/artist/d4xXVNvKUVM-NkabogQt94x2WDbK7d0XJQXTuP-69Jk" target="_blank">
+                    <img src="https://studio.code.org/v3/files/d4xXVNvKUVM-NkabogQt94x2WDbK7d0XJQXTuP-69Jk/.metadata/thumbnail.png" class="img-responsive">
+                </a>
+                <div class="carousel-content">
+                    <p> Gradients </p>
+                </div>
+
+            </center>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#mycarousel1" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+    <a class="right carousel-control" href="#mycarousel1" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+    </div>
+
+
+    <!--
+Start your code from here
+-->
+
+    </div>
+
+</body></html>
